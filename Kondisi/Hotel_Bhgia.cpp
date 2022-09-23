@@ -27,17 +27,17 @@ int main (){
 			
 			switch (sarapan){
 			case 'y' : cout << "Lama menginap " << lama << " malam dengan sarapan \n";
-					   ttlsr = h*lama + lama*50000
+					   ttlsr = h*lama + lama*50000;
 					   cout << "Harga Kamar : " << ttlsr << endl;
 			break;
 			
 			case 'n' : cout << "Lama menginap " << lama << " malam tanpa sarapan \n";
-					   ttl = h*lama
+					   ttl = h*lama;
 					   cout << "Harga Kamar : " << ttl << endl;
 			break;
 			
 			default : cout << "Input anda gak jelas, jadi mungkin anda ingin menginap tanpa sarapan selama " << lama << "malam" << endl;
-					  ttl = h*lama
+					  ttl = h*lama;
 					   cout << "Harga Kamar : " << ttl << endl;
 			break;
 			}
@@ -50,15 +50,19 @@ int main (){
 			
 			switch (sarapan){
 			case 'y' : cout << "Lama menginap " << lama << " malam dengan sarapan \n";
+						ttlsr = h*lama + lama*50000;
 					   cout << "Harga Kamar : " << ttlsr << endl;
 			break;
 					   
 			case 'n' : cout << "Lama menginap " << lama << " malam tanpa sarapan \n";
+					   ttl = h*lama;
 					   cout << "Harga Kamar : " << ttl << endl;
 			break;
 					   
 			default : cout << "Input anda gak jelas, jadi mungkin anda ingin menginap tanpa sarapan selama " << lama << " malam" << endl;
+					   ttl = h*lama;
 					   cout << "Harga Kamar : " << ttl << endl;
+		
 			break;
 			}
 			
@@ -70,14 +74,17 @@ int main (){
 			
 			switch (sarapan){
 			case 'y' : cout << "Lama menginap " << lama << " malam dengan sarapan \n";
+					   ttlsr = h*lama + lama*50000;
 					   cout << "Harga Kamar : " << ttlsr << endl;
 			break;
 			
 			case 'p' : cout << "Lama menginap " << lama << " malam tanpa sarapan \n";
+					   ttl = h*lama;
 					   cout << "Harga Kamar : " << ttl << endl;
 			break;
 			
             default : cout << "Input anda gak jelas, jadi mungkin anda ingin menginap tanpa sarapan selama " << lama << " malam" << endl;
+					   ttl = h*lama;
 					   cout << "Harga Kamar anda : " << ttl << endl;
 			break;
 			}
@@ -90,15 +97,18 @@ int main (){
 			
 			switch (sarapan){
 			case 'y' : cout << "Lama menginap " << lama << " malam dengan sarapan \n";
+					   ttlsr = h*lama + lama*50000;
 					   cout << "Harga Kamar : " << ttlsr << endl;
 			break;
 					   
 			case 'n' : cout << "Lama menginap " << lama << " malam tanpa sarapan \n";
+					   ttl = h*lama;
 					   cout << "Harga Kamar : " << ttl << endl;
 			break;
 					   
 			default : cout << "Input anda gak jelas, jadi mungkin anda ingin menginap tanpa sarapan selama " << lama << " malam" << endl;
-					   cout << "Harga Kamar : " << ttl << endl;
+					  ttl = h*lama;
+					  cout << "Harga Kamar : " << ttl << endl;
 			break;
 			}
 			
